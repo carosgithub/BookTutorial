@@ -1,5 +1,5 @@
 import {createReducer, on} from "@ngrx/store";
-import {ProductsActions} from "../actions";
+import {ProductsActions} from "../../store/actions";
 import {query} from "@angular/animations";
 import {Product} from "../model/product";
 

@@ -1,6 +1,6 @@
 import {Component, Input, OnInit} from '@angular/core';
-import {LayoutActions} from "../../../shared/layout/actions";
-import {ProductsActions} from "../../actions";
+import {LayoutActions} from "../../../store/actions";
+import {ProductsActions} from "../../../store/actions";
 import {Store} from "@ngrx/store";
 import * as fromProducts from '../../reducers';
 import {Product} from "../../model/product";

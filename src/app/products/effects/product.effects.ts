@@ -4,7 +4,7 @@ import {asyncScheduler, of} from "rxjs";
 import {catchError, debounceTime, map, switchMap} from "rxjs/operators";
 import {Actions, createEffect, ofType} from "@ngrx/effects";
 import {Product} from "../model/product";
-import {ProductsActions} from "../actions";
+import {ProductsActions} from "../../store/actions";
 
 
 @Injectable()

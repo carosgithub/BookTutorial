@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {Store} from "@ngrx/store";
 import * as fromLayout from '../reducers/layout.reducer';
-import {LayoutActions} from "../actions";
+import {LayoutActions} from "../../../store/actions";
 
 
 @Component({

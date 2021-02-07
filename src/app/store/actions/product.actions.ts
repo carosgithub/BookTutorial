@@ -1,6 +1,5 @@
-/*
 import {createAction, props} from "@ngrx/store";
-import {Product} from "../model/product";
+import {Product} from "../../products/model/product";
 
 
 export const search = createAction(
@@ -18,4 +17,3 @@ export const searchFailure = createAction(
   '[Products/API] Search Failure',
   props<{ errorMsg: string }>()
 );
-*/
