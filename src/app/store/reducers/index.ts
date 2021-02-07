@@ -32,7 +32,7 @@ export const ROOT_REDUCERS = new InjectionToken<
 
 
 /**
- * Layout Reducers
+ * Layout selector
  */
 export const selectLayoutState = createFeatureSelector<State, fromLayout.State>(
   fromLayout.layoutFeatureKey
