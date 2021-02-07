@@ -7,7 +7,7 @@ import {StoreModule} from "@ngrx/store";
 
 import * as fromProducts from './reducers';
 import {EffectsModule} from "@ngrx/effects";
-import {ProductEffects} from "./effects/product.effects";
+import {ProductEffects} from "../store/effects/product.effects";
 
 const route: Routes = [
   {
