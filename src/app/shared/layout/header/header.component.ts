@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Store} from "@ngrx/store";
-import * as fromLayout from '../reducers/layout.reducer';
+import * as fromLayout from '../../../store/reducers';
 import {LayoutActions} from "../../../store/actions";
 
 

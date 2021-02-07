@@ -1,7 +1,7 @@
 import {createReducer, on} from "@ngrx/store";
 import {ProductsActions} from "../../store/actions";
 import {query} from "@angular/animations";
-import {Product} from "../model/product";
+import {Product} from "../../products/model/product";
 
 export const productsFeatureKey = 'products';
 
