@@ -5,9 +5,9 @@ import {RouterModule, Routes} from "@angular/router";
 import {ListComponent} from "./components/list/list.component";
 import {StoreModule} from "@ngrx/store";
 
-import * as fromProducts from '../store/reducers';
+import * as fromProducts from './store/reducers';
 import {EffectsModule} from "@ngrx/effects";
-import {ProductEffects} from "../store/effects/product.effects";
+import {ProductEffects} from "./store/effects/product.effects";
 
 const route: Routes = [
   {

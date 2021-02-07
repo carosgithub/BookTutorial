@@ -1,9 +1,9 @@
-import {GoogleBooksService} from "../../products/services/google-books.service";
+import {GoogleBooksService} from "../../services/google-books.service";
 import {Injectable} from "@angular/core";
 import {asyncScheduler, of} from "rxjs";
 import {catchError, debounceTime, map, switchMap} from "rxjs/operators";
 import {Actions, createEffect, ofType} from "@ngrx/effects";
-import {Product} from "../../products/model/product";
+import {Product} from "../../model/product";
 import {ProductsActions} from "../../store/actions";
 
 

@@ -1,8 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Store} from "@ngrx/store";
-import * as fromLayout from '../../../store/reducers';
-import {LayoutActions} from "../../../store/actions";
-
+import * as fromLayout from '../../../products/store/reducers';
 
 @Component({
   selector: 'app-header',
