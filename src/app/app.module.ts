@@ -5,7 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {LayoutModule} from "./shared/layout/layout.module";
 import {ActionReducer, MetaReducer, StoreModule} from "@ngrx/store";
-import {ROOT_REDUCERS} from "./reducers";
+import {ROOT_REDUCERS} from "./store/reducers";
 import {StoreRouterConnectingModule} from "@ngrx/router-store";
 import {StoreDevtoolsModule} from "@ngrx/store-devtools";
 import {localStorageSync} from "ngrx-store-localstorage";

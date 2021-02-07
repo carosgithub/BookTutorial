@@ -1,6 +1,6 @@
 import * as fromProducts from './products.reducer';
 import {productsFeatureKey} from './products.reducer';
-import * as fromRoot from '../../reducers';
+import * as fromRoot from '../../store/reducers';
 import {Action, combineReducers, createFeatureSelector, createSelector} from "@ngrx/store";
 
 
